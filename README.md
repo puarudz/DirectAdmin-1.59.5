@@ -1,4 +1,4 @@
-# DirectAdmin-1.59.5
+# DirectAdmin-1.59.5 - Installation Successful
 # P/s: Chú ý bản này chỉ chạy được trên Centos 7 64bit
 # Cài đặt:
 ```
