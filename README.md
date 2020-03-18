@@ -39,7 +39,7 @@ rm -rf /usr/local/directadmin/conf/license.key
 wget -O /usr/local/directadmin/conf/license.key https://raw.githubusercontent.com/puarudz/DirectAdmin-1.59.5/master/license.key
 chmod 600 /usr/local/directadmin/conf/license.key
 chown diradmin:diradmin /usr/local/directadmin/conf/license.key
-rm -r /etc/sysconfig/network-scripts/ifcfg-eth0:100
+rm -rf /etc/sysconfig/network-scripts/ifcfg-eth0:100
 ifconfig eth0:100 27.77.94.91 netmask 255.0.0.0 up
 echo 'DEVICE=eth0:100' >> /etc/sysconfig/network-scripts/ifcfg-eth0:100
 echo 'IPADDR=27.77.94.91' >> /etc/sysconfig/network-scripts/ifcfg-eth0:100
