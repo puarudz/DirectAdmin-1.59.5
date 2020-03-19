@@ -45,4 +45,4 @@ systemctl restart directadmin
 ifdown eth0:100
 ```
 # Cách fix VPS không vào được mạng sau khi edit network :
-ifdown eth0:100
+```ifdown eth0:100```
