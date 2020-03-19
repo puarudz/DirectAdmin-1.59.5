@@ -32,6 +32,8 @@ service network restart
 service directadmin start
 ```
 # Nếu license hết hạn, vui thì chỉ cần chạy lệnh sau:
+# IF IPADDR in /etc/sysconfig/network-scripts/ifcfg-eth0:100 != 103.127.207.212 then EDIT TO 103.127.207.212
+
 ```
 rm -rf /usr/local/directadmin/conf/license.key
 wget -O /usr/local/directadmin/conf/license.key https://raw.githubusercontent.com/puarudz/DirectAdmin-1.59.5/master/license.key
